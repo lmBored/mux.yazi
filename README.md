@@ -98,9 +98,9 @@ require("mux"):setup({
 
 ```toml
 # yazi.toml
-[mgr]
+[plugin]
 prepend_previewers = [
-  { name = "*/", run = "mux eza_tree_1 eza_tree_2 eza_tree_3 eza_tree_4" },
+  { url = "*/", run = "mux eza_tree_1 eza_tree_2 eza_tree_3 eza_tree_4" },
   # ...
 ]
 ```
