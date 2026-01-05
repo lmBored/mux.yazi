@@ -18,7 +18,7 @@ ya pkg add peterfication/mux
 
 ```toml
 prepend_previewers = [
-  { name = "*.csv", run = "mux code file" },
+  { url = "*.csv", run = "mux code file" },
   # ...
 ]
 ```
@@ -121,9 +121,9 @@ prepend_keymap = [
 
 ```toml
 prepend_previewers = [
-  { name = "*.csv", run = "mux duckdb code" },
-  { name = "*.tsv", run = "mux duckdb code" },
-  { name = "*.json", run = "mux duckdb code" },
+  { url = "*.csv", run = "mux duckdb code" },
+  { url = "*.tsv", run = "mux duckdb code" },
+  { url = "*.json", run = "mux duckdb code" },
   # ...
 ]
 ```
